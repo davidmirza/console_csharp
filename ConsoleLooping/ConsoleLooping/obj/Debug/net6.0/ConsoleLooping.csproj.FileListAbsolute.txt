@@ -1,0 +1,15 @@
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\bin\Debug\net6.0\ConsoleLooping.exe
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\bin\Debug\net6.0\ConsoleLooping.deps.json
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\bin\Debug\net6.0\ConsoleLooping.runtimeconfig.json
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\bin\Debug\net6.0\ConsoleLooping.dll
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\bin\Debug\net6.0\ConsoleLooping.pdb
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.csproj.AssemblyReference.cache
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.AssemblyInfoInputs.cache
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.AssemblyInfo.cs
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.csproj.CoreCompileInputs.cache
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.dll
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\refint\ConsoleLooping.dll
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.pdb
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ConsoleLooping.genruntimeconfig.cache
+C:\Davids\console_csharp\ConsoleLooping\ConsoleLooping\obj\Debug\net6.0\ref\ConsoleLooping.dll

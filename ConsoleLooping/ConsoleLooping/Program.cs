@@ -20,14 +20,15 @@ static void sisi(int jumlah, Boolean kanan, string parameter)
     }
     Console.WriteLine("\n");
 }
-static void piramid(int jumlah, string parameter)
+static void piramid(int jumlah, string parameter, Boolean Diamond)
 {
     string bd = "";
-    Console.WriteLine("piramid");
     int ln = parameter.Count();
     int pjln = (ln > 1) ? ln - (ln - 1) : 1;
     int val = 6;
     int backward = (ln > 3) ? jumlah + (val + (4 * (ln - 3))) : (ln == 1 ? jumlah - 2 : ln == 2 ? jumlah + 2 : jumlah + 6);
+    string result = "";
+    //Console.WriteLine(pjln);
     for (int x = 0; x < jumlah; x++)
     {
         string spc = "";
@@ -45,11 +46,39 @@ static void piramid(int jumlah, string parameter)
             spc += " ";
         }
         backward -= ln;
-        string result = spc + bd;
+        result = spc + bd;
+       
         Console.WriteLine(result);
     }
+    if (Diamond)
+    {
+       // Console.WriteLine("\n d " + backward);
+        string bl = "";
+        int rm = result.Length;
+        for(int z = 0; z < rm ; z++)
+        {
+            bl += parameter;
+        }
+        int prm = 0;
+        string spc2 = "";
+        for (int x = jumlah-1 ; x>= 0; x--)
+        {
+            string results = bl.Substring(0, rm);
+            
+            if (x != jumlah - 1) {
+                spc2 += " ";
+                Console.WriteLine(spc2+results);
+            }
+            rm -= 2;
+            prm++;
+        }
+    }
 }
-
+//static void diamond(int jumlah, string parameter)
+//{
+//    piramid(jumlah, parameter);
+//}
 sisi(5, true, "*");
 sisi(5, false, "+");
-piramid(5, "*");
+piramid(5, "b*r",false);
+piramid(5, "x",true);
